@@ -52,5 +52,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/calidadygestion2026-edu/api-tareas:latest
-            ghcr.io/calidadygestion2026-edu/api-tareas:${{ github.sha }}
+            ghcr.io/calidadygestion2026-edu/api-test:latest
+            ghcr.io/calidadygestion2026-edu/api-test:${{ github.sha }}
